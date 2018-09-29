@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs/ITTrainingAdminWeb/v15
+/ITTrainingAdminWeb/obj
+/ITTrainingAdminWeb/bin/Debug/netcoreapp2.0
