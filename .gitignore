@@ -2,6 +2,4 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/ITTrainingAdminWeb/v15
-/ITTrainingAdminWeb/obj
-/ITTrainingAdminWeb/bin/Debug/netcoreapp2.0
+/.vs
