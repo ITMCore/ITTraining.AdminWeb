@@ -2,18 +2,17 @@ import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
   {
-    title: 'E-commerce',
-    icon: 'nb-e-commerce',
-    link: '/pages/dashboard',
-    home: true,
-  },
-  {
-    title: 'IoT Dashboard',
+    title: 'Dashboard',
     icon: 'nb-home',
     link: '/pages/iot-dashboard',
   },
   {
-    title: 'FEATURES',
+    title: 'Tasks',
+    icon: 'nb-list',
+    link: '/pages/iot-dashboard',
+  },
+  {
+    title: 'Admin Control',
     group: true,
   },
   {
@@ -56,6 +55,16 @@ export const MENU_ITEMS: NbMenuItem[] = [
     ],
   },
   {
+    title: 'Components',
+    icon: 'nb-gear',
+    children: [
+      {
+        title: 'Keywords',
+        link: '/pages/components/keywords',
+      }
+    ],
+  },
+  {
     title: 'Forms',
     icon: 'nb-compose',
     children: [
@@ -66,19 +75,6 @@ export const MENU_ITEMS: NbMenuItem[] = [
       {
         title: 'Form Layouts',
         link: '/pages/forms/layouts',
-      },
-    ],
-  },
-  {
-    title: 'Components',
-    icon: 'nb-gear',
-    children: [
-      {
-        title: 'Tree',
-        link: '/pages/components/tree',
-      }, {
-        title: 'Notifications',
-        link: '/pages/components/notifications',
       },
     ],
   },

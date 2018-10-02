@@ -4,18 +4,23 @@ import { Routes, RouterModule } from '@angular/router';
 import { ComponentsComponent } from './components.component';
 import { TreeComponent } from './tree/tree.component';
 import { NotificationsComponent } from './notifications/notifications.component';
+import { KeywordsComponent } from './keywords/keywords.component';
 
 const routes: Routes = [{
   path: '',
   component: ComponentsComponent,
   children: [
-  {
-    path: 'tree',
-    component: TreeComponent,
-  }, {
-    path: 'notifications',
-    component: NotificationsComponent,
-  },
+    {
+      path: 'tree',
+      component: TreeComponent,
+    }, {
+      path: 'notifications',
+      component: NotificationsComponent,
+    },
+    {
+      path: 'keywords',
+      component: KeywordsComponent,
+    }
   ],
 }];
 
@@ -29,4 +34,5 @@ export const routedComponents = [
   ComponentsComponent,
   TreeComponent,
   NotificationsComponent,
+  KeywordsComponent
 ];
