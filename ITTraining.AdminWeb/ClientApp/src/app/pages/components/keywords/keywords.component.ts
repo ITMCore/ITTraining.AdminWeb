@@ -14,7 +14,6 @@ import 'style-loader!angular2-toaster/toaster.css';
 })
 
 export class KeywordsComponent {
-  
   config: ToasterConfig;
 
   formModule = new KeywordFormMod();
